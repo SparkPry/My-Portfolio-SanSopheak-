@@ -1,5 +1,5 @@
 import React from "react";
-
+import Certificat from "../assets/certificat.jpg";
 const Qualification = () => {
   return (
     <section className="py-20 bg-white">
@@ -69,7 +69,7 @@ const Qualification = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Certificate</h2>
           <div className="flex justify-center">
             
-            <img className="items-center" src="https://i.pinimg.com/736x/5a/a5/31/5aa531e22f0d6697b1e4a0d46baaf7c0.jpg" alt="" />
+            <img className="items-center" src={Certificat} alt="Certificate" />
 
           </div>
         </div>
