@@ -1,5 +1,5 @@
 import React from "react";
-import Certificat from "../assets/certificat.jpg";
+import Certificat from "../assets/Certificat.jpg";
 const Qualification = () => {
   return (
     <section className="py-20 bg-white">
