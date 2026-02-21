@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className="bg-white text-gray-900 font-sans">
+    <div className="app-shell text-gray-900">
       <Navbar scrollToSection={scrollToSection} activeSection={activeSection} />
       <main>
         <section id="home">
